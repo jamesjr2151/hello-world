@@ -1,2 +1,2 @@
 # hello-world
-Print hell world using RUST code
+Print hello world using RUST code
