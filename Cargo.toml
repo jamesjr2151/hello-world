@@ -1,0 +1,16 @@
+[package]
+name = "esp32-blinky"
+version = "0.1.0"
+edition = "2025"
+description = "ESP32 Blinky example in Embedded Rust"
+authors = ["Manuel James <manueljames666@gmail.com>"]
+repository = "https://github.com/james_jr2151/esp32-rust-blinky"
+readme = "README.md"
+
+[dependencies]
+esp-idf-hal = "0.42"
+esp-idf-sys = { version = "0.42", features = ["binstart"] }
+
+[package.metadata.espressif]
+framework = "esp-idf"
+mcus = ["esp32"]
